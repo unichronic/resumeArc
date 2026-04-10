@@ -1,0 +1,217 @@
+%-------------------------
+% Resume in Latex
+% Author : Jake Gutierrez
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage[normalem]{ulem}
+\let\oldhref\href
+\newcommand{\bodyhref}[2]{\href{#1}{\underline{#2}\,\faExternalLink*}}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.19in}
+\addtolength{\topmargin}{-.7in}
+\addtolength{\textheight}{1.4in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\classesList}[4]{
+    \item\small{
+        {#1 #2 #3 #4 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textbf{\small #2} \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & \textbf{\small #2}\\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+\begin{center}
+    {\Huge \scshape Shuvam Pal} \\ \vspace{1pt}
+    \small \raisebox{-0.1\height}\faPhone\ +91 85830 54679 ~ 
+    \href{mailto:ishuvam.pal@gmail.com}{\raisebox{-0.2\height}\faEnvelope\ {ishuvam.pal@gmail.com}} ~ 
+    \href{https://linkedin.com/in/shuvampal3960}{\raisebox{-0.2\height}\faLinkedin\ {Shuvam Pal}}  ~
+    \href{https://github.com/unichronic}{\raisebox{-0.2\height}\faGithub\ {unichronic}}
+    \vspace{-8pt}
+\end{center}
+
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Dayananda Sagar College of Engineering}{Bengaluru, India}
+      {B.E. Artificial Intelligence and Machine Learning}{}
+  \resumeSubHeadingListEnd
+
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+\resumeSubHeadingListStart
+
+\item
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+\textbf{\bodyhref{https://www.bentham.legal/}{Bentham}} & \textit{Dec 2025 -- Feb 2026} \\
+\textit{Backend Developer Intern: Go, Node.js, Docker, GCP, Puppeteer, GitHub Actions} & \textit{Remote} \\
+\end{tabular*}
+\vspace{-4pt}
+\resumeItemListStart
+\resumeItem{Architected a resilient \textbf{Puppeteer-based Node.js automation engine} for MCA company registrations, reducing manual filing time by \textbf{85\%} via intelligent network-idle monitoring, \textbf{Vision API CAPTCHA} solving, and making good use of open API endpoints on the site.}
+\resumeItem{Designed a concurrent, provider-agnostic \textbf{notification microservice in Go} using \textbf{goroutines and a unified REST API}, with strict request validation, and provider abstraction (MSG91, Gmail SMTP) via interface-driven design, reducing integration complexity.}
+\resumeItem{Designed scalable, production-ready infrastructure by \textbf{containerizing with Docker} and deploying to \textbf{Google Cloud Run}; automated pipelines using \textbf{Github Actions} for builds and deployments, improving deployment velocity by \textbf{70\%}.}
+\resumeItemListEnd
+
+\item
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+\textbf{\bodyhref{https://gist.github.com/unichronic/4d7f61048fda1312d5d30bb151ee4eb5}{Google Summer of Code}} & \textit{May 2025 -- Sept 2025} \\
+\textit{Contributor at Invesalius: Python, VTK, wxPython, NumPy, PyTorch, ONNX} & \textit{Remote} \\
+\end{tabular*}
+\vspace{-4pt}
+\resumeItemListStart
+\resumeItem{Developed a tool to segment \textbf{95 subparts of the brain} from MRI images using \textbf{deep learning models} with support for both \textbf{PyTorch} and \textbf{TinyGrad}.}
+\resumeItem{Optimized processing time by \textbf{87\%} by utilizing \textbf{asynchronous functions} and \textbf{parallel processing}.}
+\resumeItem{Enhanced the \textbf{3D reconstructed surface visualization} system.}
+\resumeItemListEnd
+
+\vspace{2pt}
+
+\item
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+\textbf{Open Source} & \bodyhref{https://gist.github.com/unichronic/ad59b914acf303066db8239e29ebb8a6}{\textit{Contributions}} \\
+\end{tabular*}
+\resumeItemListStart
+\resumeItem{Contributed to Invesalius, IOOS, VideoLan, CRIU and Tiled.}
+\resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+
+%-----------PROJECTS-----------
+\section{Projects}
+    \resumeSubHeadingListStart
+\resumeProjectHeading
+{\textbf{Postificus} $|$ \emph{Go, Echo, Rod, PostgreSQL, Redis, RabbitMQ, Docker, Prometheus}}{\bodyhref{https://github.com/unichronic/postificus}{GitHub}}
+\resumeItemListStart
+\resumeItem{Built an automated \textbf{publishing platform} that eliminates manual cross-posting across Medium, Dev.to, and Hashnode using \textbf{Go-Rod powered stealth browser automation} and AI-driven content transformation.}
+
+\resumeItem{Engineered a \textbf{distributed task execution pipeline} using \textbf{RabbitMQ} (Dead letter Queues, retry handling) ensuring \textbf{100\% job reliability}; \textbf{Redis for Autosaving} in the editor using UPSERT Pattern, and \textbf{Supabase S3} for image storage.}
+
+\resumeItem{Containerized the \textbf{Go microservices} with \textbf{Docker} and implemented \textbf{observability} using \textbf{Prometheus metrics}, health checks, and a custom \textbf{Circuit Breaker pattern} to prevent cascading failures during third-party outages.}
+\resumeItemListEnd
+      \resumeProjectHeading
+          {\textbf{Godspeed} $|$ \emph{Python, C++, FastAPI, Llama.cpp, RPC}}{\bodyhref{https://github.com/unichronic/godspeed}{GitHub}}
+          \resumeItemListStart
+            \resumeItem{Engineered a \textbf{high-performance inference engine} enabling execution of \textbf{14B+ parameter LLMs} on constrained consumer hardware (ex. 4GB VRAM) by orchestrating a heterogeneous compute cluster (dGPU + CPU).}
+            \resumeItem{Implemented an \textbf{asynchronous speculative decoding pipeline} that splits drafting (GPU) and verification (CPU), improving throughput by \textbf{2.4x (7.8 tokens/sec)} over standard layer offloading.}
+            \resumeItem{Developed an \textbf{OpenAI-compatible middleware API} using \textbf{FastAPI} to seamlessly integrate with engines like \textbf{Ollama}.}
+          \resumeItemListEnd
+    \resumeSubHeadingListEnd
+
+
+%
+%-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages}{: Python, Go, TypeScript, C++} \\
+    \textbf{Frameworks}{: FastAPI, Echo, Node.js, Express} \\
+    \textbf{Tools}{: PostgreSQL, Redis, RabbitMQ, Docker, GitHub Actions, GCP, Prometheus, Go-Rod, Puppeteer} \\
+    }}
+ \end{itemize}
+
+
+\end{document}
