@@ -1,0 +1,157 @@
+% Tailored resume for VedaAI Full-Stack Developer Intern (AI-Focused).
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage[normalem]{ulem}
+\let\oldhref\href
+\newcommand{\bodyhref}[2]{\href{#1}{\underline{#2}\,\faExternalLink*}}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\input{glyphtounicode}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.19in}
+\addtolength{\topmargin}{-.76in}
+\addtolength{\textheight}{1.48in}
+
+\urlstyle{same}
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+\titleformat{\section}{
+  \vspace{-5pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-6pt}]
+
+\pdfgentounicode=1
+
+\newcommand{\resumeItem}[1]{\item\small{{#1 \vspace{-3pt}}}}
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textbf{\small #2} \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & \textbf{\small #2}\\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}[leftmargin=0.16in]}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-6pt}}
+
+\begin{document}
+
+\begin{center}
+    {\Huge \scshape Shuvam Pal} \\ \vspace{1pt}
+    \small \raisebox{-0.1\height}\faPhone\ +91 85830 54679 ~
+    \href{mailto:ishuvam.pal@gmail.com}{\raisebox{-0.2\height}\faEnvelope\ {ishuvam.pal@gmail.com}} ~
+    \href{https://linkedin.com/in/shuvampal3960}{\raisebox{-0.2\height}\faLinkedin\ {Shuvam Pal}}  ~
+    \href{https://github.com/unichronic}{\raisebox{-0.2\height}\faGithub\ {unichronic}}
+    \vspace{-8pt}
+\end{center}
+
+\section{Education}
+\resumeSubHeadingListStart
+  \resumeSubheading
+    {Dayananda Sagar College of Engineering}{Bengaluru, India}
+    {B.E. Artificial Intelligence and Machine Learning}{}
+\resumeSubHeadingListEnd
+
+\section{Experience}
+\resumeSubHeadingListStart
+
+\item
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+\textbf{\bodyhref{https://www.bentham.legal/}{Bentham AI}} & \textit{Dec 2025 -- Feb 2026} \\
+\textit{Backend Engineering Intern: Node.js, JavaScript, Go, Docker, GCP, GitHub Actions} & \textit{Remote} \\
+\end{tabular*}
+\vspace{-4pt}
+\resumeItemListStart
+\resumeItem{Built an \textbf{AI orchestration workflow} for company-registration drafts, combining structured prompt outputs, operator validation, public-site API lookups, and automation handoff.}
+\resumeItem{Implemented async backend execution with retries, session recovery, browser automation, and state validation, reducing manual filing time by \textbf{85\%}.}
+\resumeItem{Containerized services with Docker, deployed to Google Cloud Run, and automated releases through GitHub Actions, improving deployment velocity by \textbf{70\%}.}
+\resumeItemListEnd
+
+\item
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+\textbf{\bodyhref{https://gist.github.com/unichronic/4d7f61048fda1312d5d30bb151ee4eb5}{Google Summer of Code}} & \textit{May 2025 -- Sept 2025} \\
+\textit{Mentee at Invesalius: Python, VTK, wxPython, NumPy, PyTorch, ONNX} & \textit{Remote} \\
+\end{tabular*}
+\vspace{-4pt}
+\resumeItemListStart
+\resumeItem{Built Python medical-image segmentation tooling for \textbf{95 brain subparts}, covering preprocessing, orientation correction, model inference, generated masks, and large-volume MRI data paths.}
+\resumeItem{Reduced segmentation runtime by \textbf{87\%} using asynchronous and parallel execution while preserving inspection workflows for generated masks and 3D surfaces.}
+\resumeItem{Debugged model-output pipeline issues across conformation, label mapping, PyTorch/ONNX-style inference, and binary mask generation inside a mature open-source codebase.}
+\resumeItemListEnd
+
+\item
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+\textbf{Open Source} & \bodyhref{https://gist.github.com/unichronic/ad59b914acf303066db8239e29ebb8a6}{\textit{Contributions}} \\
+\end{tabular*}
+\resumeItemListStart
+\resumeItem{Contributed patches across Invesalius, IOOS, VideoLAN, CRIU, Tiled, Kyverno, and Kuadrant, working inside maintainer review processes for reliability, security, and integration quality.}
+\resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+\section{Projects}
+\resumeSubHeadingListStart
+
+\resumeProjectHeading
+{\textbf{Swish Support System} $|$ \emph{JavaScript, React, Python, PostgreSQL/pgvector, Redis, Langfuse}}{\bodyhref{https://github.com/unichronic/swishagent}{GitHub}}
+\resumeItemListStart
+\resumeItem{Built a \textbf{hybrid AI + rule-based logic system} where LLM assessments handle messy complaint semantics while deterministic policy code controls refunds, replacements, and escalations.}
+\resumeItem{Implemented \textbf{RAG-style context grounding} over order, item, evidence, customer, and policy data before each traceable assessment and response-generation step.}
+\resumeItem{Added agent memory/state management, Langfuse traces, response-quality checks, and regression suites for multi-turn cases where context must survive clarifications and follow-ups.}
+\resumeItemListEnd
+
+\resumeProjectHeading
+{\textbf{Penny Lane Capital} $|$ \emph{Python, Agno, Pydantic, SQLite, Vector Memory, JSONL}}{\bodyhref{https://github.com/unichronic/pennylane}{GitHub}}
+\resumeItemListStart
+\resumeItem{Built an \textbf{AI orchestration system} with analyst roles, bull/bear debate, trader, risk review, portfolio approval, typed Pydantic state, SQLite checkpoints, and JSONL traces.}
+\resumeItem{Implemented \textbf{vector memory} and semantic lesson retrieval so agents could pull similar past decisions into context and inspect retrieval quality through validation harnesses.}
+\resumeItem{Added reward-loop style evaluation and checkpointed runs so agent behavior, retrieved context, and final decisions could be compared across iterations.}
+\resumeItemListEnd
+
+\resumeProjectHeading
+{\textbf{Seaweed: Contest Platform} $|$ \emph{TypeScript, React, Next.js, Go, PostgreSQL, Judge0, Firebase}}{\bodyhref{https://github.com/unichronic/seaweed-fe}{GitHub}}
+\resumeItemListStart
+\resumeItem{Built the \textbf{React/Next.js assessment UI} with auth-gated problem pages, code editor, submissions, admin review/shortlisting, and live ranked leaderboards.}
+\resumeItem{Implemented Go judging APIs with Judge0, PostgreSQL rankings/materialized views, and Redis-backed runtime state for \textbf{500+ concurrent users} and \textbf{sub-5s P95 verdict latency}.}
+\resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+\section{Technical Skills}
+\begin{itemize}[leftmargin=0.15in, label={}]
+  \small{\item{
+   \textbf{Languages}{: JavaScript, TypeScript, Python, Go} \\
+   \textbf{Frameworks}{: React, Next.js, Node.js, GraphQL, Vite, FastAPI, Gin, Echo, PyTorch} \\
+   \textbf{Tools}{: PostgreSQL/pgvector, Redis, SQLite, Vector Memory, Firebase Auth, Judge0, Docker, GCP, GitHub Actions, Langfuse, Prometheus} \\
+  }}
+\end{itemize}
+
+\end{document}

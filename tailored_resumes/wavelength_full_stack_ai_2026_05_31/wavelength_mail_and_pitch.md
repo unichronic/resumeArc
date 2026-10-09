@@ -1,0 +1,24 @@
+# Wavelength - Full Stack + AI
+
+To: jayanth@heywavelength.com
+
+Subject: Full stack + AI role - via Akash Singh
+
+Hi Jayanth,
+
+I heard about the Wavelength opening from Akash Singh and went through the JD. The part that stood out to me was that you are not just building another wrapper around an LLM; it looks like the hard part is product, agent behavior, context, trust, and fast iteration for a very human use case.
+
+Quick pitch: I am Shuvam, a B.E. AIML student in Bengaluru who likes building end-to-end systems more than isolated demos. I have worked on FastAPI/Node/Go backends, React/Next product surfaces, Postgres/Redis state, Docker/GCP deployments, and AI workflows that are traceable instead of opaque. At Bentham AI (https://www.bentham.legal/), I built backend automation for compliance workflows and reduced manual filing time by 85%. In Hyoka, I built an agent reliability layer with traces, eval/replay runs, release gates, audit logs, and an OpenAI-compatible proxy. In Swish, I built an LLM-assisted support workflow where AI handled messy user language but deterministic policy still controlled refunds, coupons, and escalations. I also built a multi-agent workflow in Penny Lane with typed state, checkpoints, traces, and a React/Vite inspection UI.
+
+React Native would be the ramp area for me, but the surrounding pieces are very close to work I have already done: React/Next interfaces, production-style APIs, databases, queues, deployment flows, and AI-agent infrastructure. The ownership-heavy founding engineer setup is exactly the kind of environment I am looking for.
+
+I am based in Bengaluru for college, so HSR in-office is workable for me. I have attached a resume tailored to the role.
+
+Best,
+Shuvam Pal
+LinkedIn: https://linkedin.com/in/shuvampal3960
+GitHub: https://github.com/unichronic
+
+## Short Elevator Pitch
+
+I looked into Wavelength and I think I can help on the full-stack AI layer: building product features, backend APIs, Postgres/Redis state, agent workflows, and reliability around LLM behavior. My strongest work is not just prompts, but making AI features inspectable, recoverable, and useful inside real user workflows.

@@ -1,0 +1,22 @@
+To: sanat@getbiostack.com; parth@getbiostack.com
+Subject: Engineering internship in medical imaging and AI data systems
+
+Hi Sanat and Parth,
+
+I was looking through YC's startup directory and came across BioStack. The idea of turning messy clinical and imaging data into useful training environments immediately felt close to my own work, so I thought I would reach out.
+
+A little bit about me that might be relevant:
+
+• During GSoC with InVesalius, I worked with DICOM and volumetric MRI data in a three dimensional medical imaging and neuronavigation application. I integrated FastSurfer inference for 95 brain regions across PyTorch and ONNX, handled orientation sensitive preprocessing and generated masks, and reduced processing time by 87 percent.
+
+• More recently, I built Hyoka, an AI reliability and evaluation platform for trace ingestion, evaluations, replayable runs, artifacts, quality gates, and audit logs. It has given me a stronger understanding of how AI outputs can be made reproducible and useful for real workflows.
+
+• Apart from this, I worked at Bentham AI, https://www.bentham.legal/, a legal automation startup, where I built backend automation for compliance workflows involving external APIs, browser execution, retries, and session recovery.
+
+I think this combination of medical imaging, AI reliability, and backend workflow experience could be useful for BioStack's work. I would love to chat if there is an opportunity to contribute through an internship in medical data, ML infrastructure, evaluation, or backend engineering.
+
+I've attached my resume below.
+
+Regards,
+Shuvam
+https://github.com/unichronic/hyoka

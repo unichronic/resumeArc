@@ -1,0 +1,22 @@
+To: avohra@promaxo.com
+Subject: Internship inquiry in MRI and medical AI engineering
+
+Hi Dr. Vohra,
+
+I was reading about Promaxo's point of care MRI and image guided procedures and came across the work your team is doing. The combination of imaging, planning, and intervention is closely related to the kind of work I want to pursue.
+
+A little bit about me that might be relevant:
+
+• During GSoC with InVesalius, I worked with DICOM and MRI workflows, orientation and voxel conformation in a three dimensional medical imaging and neuronavigation application. I integrated FastSurfer segmentation for 95 brain regions through PyTorch and ONNX model paths.
+
+• I also built generated mask and three dimensional inspection workflows, and reduced processing time by 87 percent through asynchronous and parallel execution while preserving output checks.
+
+• More recently, I built Hyoka, an AI reliability and evaluation platform for trace ingestion, evaluations, replayable runs, artifacts, and quality gates. I have also worked on backend automation and recovery workflows at Bentham AI, https://www.bentham.legal/.
+
+I have not worked on prostate intervention, robotics, or regulated device development, but I think my experience with medical imaging software, model integration, and reliable backend workflows could be useful to Promaxo. I would love to chat if there is an opportunity to contribute.
+
+I've attached my resume below.
+
+Regards,
+Shuvam
+https://github.com/unichronic/hyoka

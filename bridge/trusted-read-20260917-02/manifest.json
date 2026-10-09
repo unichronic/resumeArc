@@ -1,0 +1,59 @@
+{
+  "bridgeVersion": "3.6",
+  "kind": "google-docs-trusted-read",
+  "status": "complete",
+  "outputDir": "/home/unichronic/intern/bridge/trusted-read-20260917-02",
+  "target": {
+    "documentId": "1QuSnHoSy_4fcf-aNODWoUYdPQMRZ9jaNSmBoeJZsvrs",
+    "title": "Shuvam's Resume",
+    "revisionId": "ANLCKQmBfj1eLvPBlzPX8WFeGR8QH_YRoh80kA_MweofVR1Xo8m9mDU36fIkcmipEKD06wiBrYHtCszCzdgVrMoHIUs-cPs7YBiO12nZTg",
+    "documentUrl": "https://docs.google.com/document/d/1QuSnHoSy_4fcf-aNODWoUYdPQMRZ9jaNSmBoeJZsvrs",
+    "selectedTabId": null
+  },
+  "dropdownMetadata": {
+    "status": "unavailable",
+    "resolvedTool": null,
+    "authoritative": false,
+    "count": 0
+  },
+  "controlAwareness": {
+    "hasProtectedControls": false,
+    "authoritativeDropdownCount": 0,
+    "opaqueControlCount": 0,
+    "affectedParagraphCount": 0,
+    "nativeElementCounts": {
+      "horizontalRule": 4
+    },
+    "preservationRequired": false,
+    "recommendedBehavior": "No protected controls were detected in the scanned scope."
+  },
+  "warnings": [],
+  "files": {
+    "document_result": {
+      "path": "/home/unichronic/intern/bridge/trusted-read-20260917-02/document-result.json",
+      "bytes": 292341,
+      "sha256": "ada88955a4e7514b9152cdaa2cde20abbf12c1697c5de6d2c95e052085713b1e"
+    },
+    "control_inventory": {
+      "path": "/home/unichronic/intern/bridge/trusted-read-20260917-02/control-inventory.json",
+      "bytes": 3184,
+      "sha256": "fd0995b662408d558c17cd56fb14d090017234f83aec6873e941e7caba595d68"
+    },
+    "document_outline": {
+      "path": "/home/unichronic/intern/bridge/trusted-read-20260917-02/document-outline.json",
+      "bytes": 25614,
+      "sha256": "be1ac7396258271323e9ab7b701c86c6b1661c1e57f2f22c8984729394b5c401"
+    },
+    "document_text": {
+      "path": "/home/unichronic/intern/bridge/trusted-read-20260917-02/document-text.md",
+      "bytes": 4173,
+      "sha256": "c65136ba5cda28e5b65c0c98d19004e8ebed578451ab54c577c03993a2797acc"
+    },
+    "receipt": {
+      "path": "/home/unichronic/intern/bridge/trusted-read-20260917-02/receipt.json",
+      "bytes": 981,
+      "sha256": "ad71dc96832c69d5dbb5c28ff0517a313f30774bc52dc2be0d5670b96d01748f"
+    }
+  },
+  "error": null
+}

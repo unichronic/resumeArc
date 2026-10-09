@@ -1,0 +1,155 @@
+% Tailored resume for SuperKalam AI/ML Research Internship.
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage[normalem]{ulem}
+\let\oldhref\href
+\newcommand{\bodyhref}[2]{\href{#1}{\underline{#2}\,\faExternalLink*}}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\input{glyphtounicode}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.19in}
+\addtolength{\topmargin}{-.76in}
+\addtolength{\textheight}{1.48in}
+
+\urlstyle{same}
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+\titleformat{\section}{
+  \vspace{-5pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-6pt}]
+
+\pdfgentounicode=1
+
+\newcommand{\resumeItem}[1]{\item\small{{#1 \vspace{-2pt}}}}
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textbf{\small #2} \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & \textbf{\small #2}\\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}[leftmargin=0.16in]}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+\begin{document}
+
+\begin{center}
+    {\Huge \scshape Shuvam Pal} \\ \vspace{1pt}
+    \small \raisebox{-0.1\height}\faPhone\ +91 85830 54679 ~
+    \href{mailto:ishuvam.pal@gmail.com}{\raisebox{-0.2\height}\faEnvelope\ {ishuvam.pal@gmail.com}} ~
+    \href{https://linkedin.com/in/shuvampal3960}{\raisebox{-0.2\height}\faLinkedin\ {Shuvam Pal}}  ~
+    \href{https://github.com/unichronic}{\raisebox{-0.2\height}\faGithub\ {unichronic}}
+    \vspace{-8pt}
+\end{center}
+
+\section{Education}
+\resumeSubHeadingListStart
+  \resumeSubheading
+    {Dayananda Sagar College of Engineering}{Bengaluru, India}
+    {B.E. Artificial Intelligence and Machine Learning}{}
+\resumeSubHeadingListEnd
+
+\section{Experience}
+\resumeSubHeadingListStart
+
+\item
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+\textbf{\bodyhref{https://gist.github.com/unichronic/4d7f61048fda1312d5d30bb151ee4eb5}{Google Summer of Code}} & \textit{May 2025 -- Sept 2025} \\
+\textit{Mentee at Invesalius: Python, VTK, wxPython, NumPy, PyTorch, ONNX} & \textit{Remote} \\
+\end{tabular*}
+\vspace{-4pt}
+\resumeItemListStart
+\resumeItem{Built Python medical-image segmentation tooling for \textbf{95 brain subparts}, handling preprocessing, orientation correction, model inference, generated masks, and large-volume MRI data paths.}
+\resumeItem{Reduced segmentation runtime by \textbf{87\%} using asynchronous and parallel execution while preserving inspection workflows for generated masks and 3D surfaces.}
+\resumeItem{Debugged model-output pipeline issues across conformation, orientation, label mapping, PyTorch/ONNX-style inference, and binary mask generation in a mature open-source codebase.}
+\resumeItemListEnd
+
+\item
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+\textbf{\bodyhref{https://www.bentham.legal/}{Bentham AI}} & \textit{Dec 2025 -- Feb 2026} \\
+\textit{Backend Engineering Intern: Go, Node.js, Docker, GCP, Puppeteer, GitHub Actions} & \textit{Remote} \\
+\end{tabular*}
+\vspace{-4pt}
+\resumeItemListStart
+\resumeItem{Optimized an \textbf{AI-assisted company-registration pipeline} for unique company-name suggestions, descriptions, and filing-field drafts, reducing manual drafting/rework across workflow preparation.}
+\resumeItem{Built a resilient automation backend with retries, session recovery, public-site API lookups, and state validation, reducing manual filing time by \textbf{85\%}.}
+\resumeItem{Containerized services with Docker, deployed to Google Cloud Run, and automated releases through GitHub Actions, improving deployment velocity by \textbf{70\%}.}
+\resumeItemListEnd
+
+\item
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+\textbf{Open Source} & \bodyhref{https://gist.github.com/unichronic/ad59b914acf303066db8239e29ebb8a6}{\textit{Contributions}} \\
+\end{tabular*}
+\resumeItemListStart
+\resumeItem{Contributed patches across Invesalius, IOOS, VideoLAN, CRIU, Tiled, Kyverno, and Kuadrant, working inside maintainer review processes for reliability, security, and integration quality.}
+\resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+\section{Projects}
+\resumeSubHeadingListStart
+
+\resumeProjectHeading
+{\textbf{Penny Lane Capital} $|$ \emph{Python, Agno, Pydantic, SQLite, Vector Memory, JSONL}}{}
+\resumeItemListStart
+\resumeItem{Built a multi-agent research workflow with analyst roles, bull/bear debate, trader, risk review, portfolio approval, typed Pydantic state, SQLite checkpoints, decision memory, and JSONL traces.}
+\resumeItem{Added \textbf{vector memory} for semantically similar decision lessons, validation harnesses, reward loops, and backtests against multiple baselines so agent behavior and retrieval quality could be inspected.}
+\resumeItemListEnd
+
+\resumeProjectHeading
+{\textbf{Swish Support System} $|$ \emph{Python, FastAPI, LLM APIs, PostgreSQL, Redis, Langfuse}}{\bodyhref{https://github.com/unichronic/swishagent}{GitHub}}
+\resumeItemListStart
+\resumeItem{Built an \textbf{AI-assisted support backend} where LLM calls classify messy customer complaints, intent, severity, ambiguity, and photo-evidence usefulness while deterministic code controls policy actions.}
+\resumeItem{Maintained conversation context, evidence artifacts, order/customer state, traceable LLM assessments, and regression tests for multi-turn support workflows.}
+\resumeItemListEnd
+
+\resumeProjectHeading
+{\textbf{Omni-SSM Voice Agent} $|$ \emph{Python, PyTorch, ONNX Runtime, Sherpa-ONNX, Moonshine, Hindi ASR, Qwen TTS, Piper}}{}
+\resumeItemListStart
+\resumeItem{Built an on-device STT/TTS research loop with \textbf{SSAMBA streaming CTC}, \textbf{Moonshine Hindi ASR tuning} for a non-English speech dataset, Piper low-latency TTS, Qwen expressive TTS experiments, and WebRTC barge-in benchmarks.}
+\resumeItem{Implemented manifest-driven data loading, teacher/student distillation and partial fine-tuning scripts, LoRA SFT data prep, multilingual TTS intelligibility/prosody gates, and latency reports for STT, TTS, first-audio, and device-memory constraints.}
+\resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+\section{Technical Skills}
+\begin{itemize}[leftmargin=0.15in, label={}]
+  \small{\item{
+   \textbf{Languages}{: Python, Go, TypeScript, C++} \\
+   \textbf{Frameworks}{: FastAPI, Agno, PyTorch, ONNX Runtime, Sherpa-ONNX, Node.js} \\
+   \textbf{Tools}{: PostgreSQL, SQLite, Redis, Vector Memory, Docker, GitHub Actions, GCP, Langfuse, Colab, Prometheus} \\
+  }}
+\end{itemize}
+
+\end{document}

@@ -1,0 +1,117 @@
+{
+  "version": 1,
+  "kind": "google-docs-trusted-read-context",
+  "target": {
+    "documentId": "1QuSnHoSy_4fcf-aNODWoUYdPQMRZ9jaNSmBoeJZsvrs",
+    "title": "Shuvam's Resume",
+    "revisionId": "ANLCKQmBfj1eLvPBlzPX8WFeGR8QH_YRoh80kA_MweofVR1Xo8m9mDU36fIkcmipEKD06wiBrYHtCszCzdgVrMoHIUs-cPs7YBiO12nZTg",
+    "documentUrl": "https://docs.google.com/document/d/1QuSnHoSy_4fcf-aNODWoUYdPQMRZ9jaNSmBoeJZsvrs",
+    "selectedTabId": null
+  },
+  "dropdownMetadata": {
+    "status": "unavailable",
+    "resolvedTool": null,
+    "authoritative": false,
+    "count": 0
+  },
+  "derivedControlInventory": {
+    "hasProtectedControls": false,
+    "authoritativeDropdownCount": 0,
+    "opaqueControlCount": 0,
+    "nativeElementCounts": {
+      "horizontalRule": 4
+    },
+    "tabsScanned": [
+      "t.0"
+    ],
+    "controls": [],
+    "nativeElements": [
+      {
+        "type": "horizontalRule",
+        "startIndex": 166,
+        "endIndex": 167,
+        "tabId": "t.0",
+        "segmentId": null,
+        "container": {
+          "kind": "paragraph",
+          "path": "root.tabs[0].body.content[5]",
+          "tabId": "t.0",
+          "segmentId": null,
+          "startIndex": 166,
+          "endIndex": 188,
+          "namedStyleType": "NORMAL_TEXT",
+          "listId": null,
+          "nestingLevel": null,
+          "table": null
+        },
+        "properties": null
+      },
+      {
+        "type": "horizontalRule",
+        "startIndex": 355,
+        "endIndex": 356,
+        "tabId": "t.0",
+        "segmentId": null,
+        "container": {
+          "kind": "paragraph",
+          "path": "root.tabs[0].body.content[7]",
+          "tabId": "t.0",
+          "segmentId": null,
+          "startIndex": 355,
+          "endIndex": 357,
+          "namedStyleType": "NORMAL_TEXT",
+          "listId": null,
+          "nestingLevel": null,
+          "table": null
+        },
+        "properties": null
+      },
+      {
+        "type": "horizontalRule",
+        "startIndex": 697,
+        "endIndex": 698,
+        "tabId": "t.0",
+        "segmentId": null,
+        "container": {
+          "kind": "paragraph",
+          "path": "root.tabs[0].body.content[10]",
+          "tabId": "t.0",
+          "segmentId": null,
+          "startIndex": 697,
+          "endIndex": 699,
+          "namedStyleType": "NORMAL_TEXT",
+          "listId": null,
+          "nestingLevel": null,
+          "table": null
+        },
+        "properties": null
+      },
+      {
+        "type": "horizontalRule",
+        "startIndex": 865,
+        "endIndex": 866,
+        "tabId": "t.0",
+        "segmentId": null,
+        "container": {
+          "kind": "paragraph",
+          "path": "root.tabs[0].body.content[21]",
+          "tabId": "t.0",
+          "segmentId": null,
+          "startIndex": 865,
+          "endIndex": 867,
+          "namedStyleType": "NORMAL_TEXT",
+          "listId": null,
+          "nestingLevel": null,
+          "table": null
+        },
+        "properties": null
+      }
+    ]
+  },
+  "editGuidance": {
+    "advisoryOnly": true,
+    "requiresTargetedPreservation": false,
+    "recommendedBehavior": "No protected controls were detected in the scanned scope.",
+    "warnings": []
+  }
+}

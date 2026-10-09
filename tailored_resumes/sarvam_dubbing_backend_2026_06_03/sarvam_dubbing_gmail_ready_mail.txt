@@ -1,0 +1,16 @@
+Subject: Backend Engineering Intern - Dubbing Pipeline
+
+Hi Sarvam team,
+
+I am applying for the Backend Engineering internship on the dubbing pipeline. The role stood out because it is not a generic AI internship; it is production backend work around translation, TTS, QC, provider APIs, retries, timeouts, fallback behavior, and observability.
+
+My closest work is Swish, where I built FastAPI support-agent services with provider fallback, cooldown handling, request timeouts, Gemini fallback paths, local JSON/Langfuse traces, retry-aware conversation test runs, and pytest regression checks. I also built Hyoka, a FastAPI reliability layer for AI agents with trace/event ingestion, eval/replay runs, worker leases, typed metadata, an OpenAI-compatible proxy, and Python SDK hooks.
+
+At Bentham AI (https://www.bentham.legal/), I worked on backend workflow automation for legal/compliance filings with retries, session recovery, validation checkpoints, and Dockerized services on Cloud Run.
+
+I think I can be useful on this pipeline because I am comfortable reading unfamiliar backend code, tracing data flow through provider-heavy systems, and making failures easier to classify, retry, log, and recover from without making the design messy.
+
+I have attached my resume. Would be glad to discuss how I can contribute.
+
+Best,
+Shuvam

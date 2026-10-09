@@ -1,0 +1,139 @@
+% Tailored early-startup resume
+\documentclass[letterpaper,11pt]{article}
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage[normalem]{ulem}
+\newcommand{\bodyhref}[2]{\href{#1}{\underline{#2}\,\faExternalLink*}}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\input{glyphtounicode}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+\addtolength{\oddsidemargin}{-0.62in}
+\addtolength{\evensidemargin}{-0.52in}
+\addtolength{\textwidth}{1.22in}
+\addtolength{\topmargin}{-.72in}
+\addtolength{\textheight}{1.88in}
+\urlstyle{same}
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+\titleformat{\section}{\vspace{-2pt}\scshape\raggedright\large\bfseries}{}{0em}{}[\color{black}\titlerule \vspace{-3pt}]
+\pdfgentounicode=1
+\newcommand{\resumeItem}[1]{\item{\fontsize{10.2pt}{11.5pt}\selectfont #1\vspace{-0.1pt}}}
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textbf{\small #2} \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & \textbf{\small #2}\\
+    \end{tabular*}\vspace{-3pt}
+}
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}, itemsep=1.5pt, topsep=0pt, parsep=0pt, partopsep=0pt]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}[leftmargin=0.16in,itemsep=1.0pt,topsep=2.0pt,parsep=0pt,partopsep=0pt]}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-1pt}}
+\begin{document}
+
+
+\begin{center}
+    {\Huge \scshape Shuvam Pal} \\ \vspace{1pt}
+    \small \raisebox{-0.1\height}\faPhone\ +91 85830 54679 ~
+    \href{mailto:ishuvam.pal@gmail.com}{\raisebox{-0.2\height}\faEnvelope\ {ishuvam.pal@gmail.com}} ~
+    \href{https://linkedin.com/in/shuvampal3960}{\raisebox{-0.2\height}\faLinkedin\ {Shuvam Pal}} ~
+    \href{https://github.com/unichronic}{\raisebox{-0.2\height}\faGithub\ {unichronic}}
+    \vspace{-8pt}
+\end{center}
+
+
+\section{Education}
+\resumeSubHeadingListStart
+  \resumeSubheading
+    {Dayananda Sagar College of Engineering}{Bengaluru, India}
+    {B.E. Artificial Intelligence and Machine Learning}{}
+\resumeSubHeadingListEnd
+
+
+\section{Experience}
+\resumeSubHeadingListStart
+\item
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+\textbf{\bodyhref{https://www.bentham.legal/}{Bentham AI}} & \textit{Dec 2025 -- Feb 2026} \\
+\textit{Backend Engineering Intern: Node.js, JavaScript, Go, Docker, GCP, GitHub Actions} & \textit{Remote} \\
+\end{tabular*}
+\vspace{-4pt}
+\resumeItemListStart
+\resumeItem{Designed and built a resilient \textbf{Node.js/Puppeteer workflow engine} for MCA company-registration filings, turning browser-driven steps into repeatable backend operations.}
+\resumeItem{Integrated \textbf{public-site API lookups}, retries, session recovery, and operator checkpoints so partially completed workflows could resume instead of restarting, reducing manual filing time by \textbf{85\%}.}
+\resumeItem{Implemented an \textbf{AI-assisted drafting flow} for company-name suggestions, object descriptions, and filing fields, with inspectable outputs and deterministic validation before execution.}
+\resumeItem{Containerized backend services with \textbf{Docker}, deployed them on \textbf{Google Cloud Run}, and automated releases with \textbf{GitHub Actions}, improving deployment velocity by \textbf{70\%}.}
+\resumeItemListEnd
+\vspace{4pt}
+
+\item
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+\textbf{\bodyhref{https://gist.github.com/unichronic/4d7f61048fda1312d5d30bb151ee4eb5}{Google Summer of Code}} & \textit{May 2025 -- Sept 2025} \\
+\textit{Mentee at Invesalius: Python, VTK, wxPython, NumPy, PyTorch, ONNX} & \textit{Remote} \\
+\end{tabular*}
+\vspace{-4pt}
+\resumeItemListStart
+\resumeItem{Worked across InVesalius, an open-source \textbf{3D medical-imaging and neuronavigation application}, integrating FastSurfer CNN inference for \textbf{95 anatomical brain regions} with PyTorch/TorchScript and ONNX/TinyGrad paths.}
+\resumeItem{Handled \textbf{DICOM and volumetric MRI workflows} alongside NIfTI/MGZ data, including voxel conformation, orientation-sensitive preprocessing, plane-specific models, label remapping, LUT mapping, generated masks, and 3D surface inspection.}
+\resumeItem{Debugged \textbf{model-output orientation, label correctness, GPU/CPU paths, progress reporting, and 3D inspection} so segmentation results remained consistent across inference paths.}
+\resumeItem{Studied model architecture and runtime behavior while converting/integrating inference paths, then reduced processing time by \textbf{87\%} through async/parallel execution with GPU/CPU, output-correctness, and QC checks.}
+\resumeItemListEnd
+\vspace{4pt}
+
+\item
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+\textbf{Open Source} & \bodyhref{https://gist.github.com/unichronic/ad59b914acf303066db8239e29ebb8a6}{\textit{Contributions}} \\
+\end{tabular*}
+\resumeItemListStart
+\resumeItem{Contributed maintainer-reviewed patches to \textbf{Invesalius} around medical-imaging artifact correctness and parser safety, with additional work in scientific data codebases.}
+\resumeItem{Also contributed to \textbf{Kuadrant MCP Gateway, Kyverno, Tiled, CRIU, IOOS, and VideoLAN}, covering backend failover behavior, security validation, data and parser correctness, and compatibility fixes.}
+\resumeItemListEnd
+\resumeSubHeadingListEnd
+
+\section{Projects}
+\resumeSubHeadingListStart
+\resumeProjectHeading
+{\textbf{Hyoka} $|$ \emph{Python, FastAPI, PostgreSQL, SQLAlchemy, OpenTelemetry, Next.js, Docker}}{\bodyhref{https://github.com/unichronic/hyoka}{GitHub}}
+\resumeItemListStart
+\resumeItem{Built an \textbf{AI Reliability \& Evaluation Platform} for \textbf{traceable validation runs}, replayable runs, release gates, promotions, audit logs, and project-scoped API keys.}
+\resumeItem{Designed \textbf{reproducible worker execution} with database leases, content-addressed artifacts, signed manifests, OTLP/OpenInference ingestion, and \textbf{Postgres-backed metadata}.}
+\resumeItemListEnd
+\resumeProjectHeading
+{\textbf{Postificus} $|$ \emph{Go, Echo, React, Vite, PostgreSQL, Redis, RabbitMQ, Docker, Prometheus}}{\bodyhref{https://github.com/unichronic/postificus}{GitHub}}
+\resumeItemListStart
+\resumeItem{Built a \textbf{full-stack workflow app} with \textbf{REST APIs}, auth/settings endpoints, \textbf{PostgreSQL persistence}, Redis cache/autosave, RabbitMQ jobs, S3-compatible storage, and live publication status.}
+\resumeItem{Added \textbf{retries, DLQs, circuit breakers}, health checks, and \textbf{Prometheus metrics} so long-running API/browser workflows stayed observable and recoverable under unreliable integrations.}
+\resumeItemListEnd
+\resumeSubHeadingListEnd
+
+\section{Technical Skills}
+\begin{itemize}[leftmargin=0.15in, label={}, topsep=0pt, itemsep=0pt, parsep=0pt, partopsep=0pt]
+  \item{\fontsize{9.6pt}{10.0pt}\selectfont
+   \textbf{Languages}{: Python, TypeScript, Go, JavaScript} \\
+   \textbf{Frameworks}{: PyTorch, FastAPI, Next.js, React, SQLAlchemy, VTK, wxPython} \\
+   \textbf{Tools}{: ONNX, NumPy, PostgreSQL, Redis, Docker, OpenTelemetry, GitHub Actions} \\
+  }
+\end{itemize}
+
+\end{document}

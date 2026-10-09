@@ -1,0 +1,16 @@
+Subject: Backend + GenAI internship possibility
+
+Hi [Founder Name],
+
+I saw the AI Engineer (Backend + GenAI) role on Whitetable. I understand it is a 5+ year full-time role, so I am not trying to position myself as the senior hire you are looking for there. I wanted to ask if you would consider an intern around the same direction: backend engineering for GenAI systems, agent workflows, evaluation, observability, and production reliability.
+
+My closest work is Hyoka, an AI-agent reliability layer I built with FastAPI, PostgreSQL/SQLite metadata, trace/event ingestion, eval/replay runs, release gates, audit logs, an OpenAI-compatible proxy, and Python SDK hooks for LLM/tool/retrieval events. I also built Swish, an LLM-assisted support workflow with FastAPI, PostgreSQL/Redis state, Langfuse/local traces, regression checks, and deterministic policy boundaries around refunds and escalations. At Bentham AI (https://www.bentham.legal/), I worked on backend automation for compliance workflows with retries, session recovery, checkpoints, Docker, Cloud Run, and GitHub Actions.
+
+I do not have 5 years of experience, and I do not want to overstate that. But I have been building in the same problem area: Python/FastAPI backends, LLM workflows, agent traces/evals, recoverable state, deployment, and debugging AI behavior instead of treating model calls as a black box. If there is room for an intern who can help with backend services, GenAI workflow infrastructure, eval/replay tooling, observability, or internal prototypes, I would be glad to contribute.
+
+I have attached my resume for context.
+
+Best,
+Shuvam Pal
+LinkedIn: https://linkedin.com/in/shuvampal3960
+GitHub: https://github.com/unichronic

@@ -1,0 +1,156 @@
+% Tailored resume for Pipeline AI Backend & Frontend Intern
+\documentclass[letterpaper,11pt]{article}
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage[normalem]{ulem}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\input{glyphtounicode}
+
+\newcommand{\bodyhref}[2]{\href{#1}{\underline{#2}\,\faExternalLink*}}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+\setlength{\footskip}{4.1pt}
+\addtolength{\oddsidemargin}{-0.62in}
+\addtolength{\evensidemargin}{-0.52in}
+\addtolength{\textwidth}{1.22in}
+\addtolength{\topmargin}{-0.82in}
+\addtolength{\textheight}{2.20in}
+\urlstyle{same}
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+\titleformat{\section}{\vspace{-6pt}\raggedright\large\bfseries}{}{0em}{}[\color{black}\titlerule \vspace{-6pt}]
+\pdfgentounicode=1
+
+% Keep body copy, role metadata, and skills on a consistent readable baseline.
+\newcommand{\resumeItem}[1]{\item{\fontsize{9pt}{10.2pt}\selectfont #1\vspace{-0.7pt}}}
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textbf{\small #2} \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{1.0\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & \textbf{\small #2}\\
+    \end{tabular*}\vspace{-3pt}
+}
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}, itemsep=1.2pt, topsep=0pt, parsep=0pt, partopsep=0pt]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}[label=\textbullet,leftmargin=0.18in,itemsep=1.0pt,topsep=1.8pt,parsep=0pt,partopsep=0pt]}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{0pt}}
+\newcommand{\resumeProjectItemListStart}{\begin{itemize}[label=\textbullet,leftmargin=0.18in,itemsep=0.2pt,topsep=0.6pt,parsep=0pt,partopsep=0pt]}
+\newcommand{\resumeProjectItemListEnd}{\end{itemize}\vspace{-3pt}}
+
+\begin{document}
+
+\begin{center}
+    {\Huge \scshape Shuvam Pal} \\ \vspace{1pt}
+    \small \raisebox{-0.1\height}\faPhone\ +91 85830 54679 ~
+    \href{mailto:ishuvam.pal@gmail.com}{\raisebox{-0.2\height}\faEnvelope\ {ishuvam.pal@gmail.com}} ~
+    \href{https://linkedin.com/in/shuvampal3960}{\raisebox{-0.2\height}\faLinkedin\ {Shuvam Pal}} ~
+    \href{https://github.com/unichronic}{\raisebox{-0.2\height}\faGithub\ {unichronic}}
+    \vspace{-8pt}
+\end{center}
+
+\section{Education}
+\resumeSubHeadingListStart
+  \resumeSubheading
+    {Dayananda Sagar College of Engineering}{Bengaluru, India}
+    {B.E. Artificial Intelligence and Machine Learning}{}
+\resumeSubHeadingListEnd
+
+\section{Experience}
+\resumeSubHeadingListStart
+
+\item
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+\textbf{\bodyhref{https://www.cent.health/}{Cent AI}} & \textit{Jun 2026 -- present} \\
+\textit{\small Software Engineering Intern: Python, Medical AI, ONNX, TinyGrad, Kafka, Redis, AWS, RDP} & \textit{Bengaluru} \\
+\end{tabular*}
+\vspace{-4pt}
+\resumeItemListStart
+\resumeItem{Built and maintained an \textbf{ETL pipeline} connecting to \textbf{Neorad} to fetch, transport, and prepare \textbf{MRI scans} for downstream segmentation and reporting workflows, owning the path end-to-end from day one.}
+\resumeItem{Integrated an \textbf{organ segmentation model} with built-in \textbf{organ-sanity checks}, flagging \textbf{physical irregularities} and malformed output, and automating organ segmentation to reduce examination turnaround time by \textbf{25\%}.}
+\resumeItem{Trained a \textbf{brain-age prediction model from scratch} on structural MRI to estimate the \textbf{brain-age gap} between predicted and chronological age across age-stratified cohorts.}
+\resumeItem{Built a dedicated \textbf{AI output evaluation system} for segmentation and report-verification results, making \textbf{model quality measurable, reproducible, and reviewable} in production.}
+\resumeItemListEnd
+\vspace{4pt}
+
+\item
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+\textbf{\bodyhref{https://www.bentham.legal/}{Bentham AI}} & \textit{Dec 2025 -- Feb 2026} \\
+\textit{Backend Engineering Intern: Node.js, JavaScript, Go, Docker, GCP, GitHub Actions} & \textit{Remote} \\
+\end{tabular*}
+\vspace{-4pt}
+\resumeItemListStart
+\resumeItem{Built a resilient \textbf{Puppeteer and Node.js automation engine} for automating \textbf{legal and compliance workflows} around \textbf{MCA company-registration filings}, with API lookups, retries, session recovery, validation checks, and operator checkpoints; reduced manual filing time by \textbf{85\%}.}
+\resumeItem{Implemented \textbf{structured draft generation} for company-name suggestions, descriptions, and filing fields, with \textbf{inspectable outputs} and \textbf{deterministic validation} before execution.}
+\resumeItem{Containerized services with \textbf{Docker}, deployed them on \textbf{Google Cloud Run}, and automated releases with \textbf{GitHub Actions}, improving deployment velocity by \textbf{70\%}.}
+\resumeItemListEnd
+\vspace{4pt}
+
+\item
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+\textbf{\bodyhref{https://gist.github.com/unichronic/4d7f61048fda1312d5d30bb151ee4eb5}{Google Summer of Code}} & \textit{May 2025 -- Sept 2025} \\
+\textit{Mentee at Invesalius: Python, VTK, NumPy, PyTorch, ONNX, TinyGrad} & \textit{Remote} \\
+\end{tabular*}
+\vspace{-4pt}
+\resumeItemListStart
+\resumeItem{Built \textbf{medical-imaging segmentation workflows} for \textbf{95 anatomical brain regions}, integrating \textbf{MRI preprocessing}, \textbf{PyTorch and TorchScript}, \textbf{ONNX and TinyGrad} inference, generated masks, and 3D inspection paths.}
+\resumeItem{Worked with \textbf{NIfTI and MGZ volumes}, voxel conformation, \textbf{orientation-sensitive preprocessing}, label remapping, LUT mapping, binary masks, and \textbf{QC checks} for model output correctness.}
+\resumeItem{Reduced MRI-processing runtime by \textbf{87\%} through \textbf{asynchronous and parallel execution} while validating orientation, labels, \textbf{GPU and CPU} paths, and reproducible outputs.}
+\resumeItemListEnd
+\vspace{4pt}
+
+\item
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+\textbf{Open Source} & \bodyhref{https://gist.github.com/unichronic/ad59b914acf303066db8239e29ebb8a6}{\textit{Contributions}} \\
+\end{tabular*}
+\resumeItemListStart
+\resumeItem{Contributed maintainer-reviewed patches across \textbf{Invesalius, Kuadrant MCP Gateway, Tiled, CRIU, and VideoLAN}, spanning medical-data correctness, backend failover, parser robustness, security validation, and compatibility fixes.}
+\resumeItemListEnd
+\resumeSubHeadingListEnd
+
+\section{Projects}
+\resumeSubHeadingListStart
+\resumeProjectHeading
+{\textbf{Postificus Content Distribution Engine} $|$ \emph{Go, Echo, PostgreSQL, Redis, RabbitMQ, Go-Rod}}{\bodyhref{https://github.com/unichronic/postificus}{GitHub}}
+\resumeProjectItemListStart
+\resumeItem{Solved fragmented publishing across Medium, Dev.to, and LinkedIn with a centralized \textbf{Go/Echo engine} built around \textbf{Go-Rod browser automation} and AI-driven content transformation, turning one draft into platform-ready posts.}
+\resumeItem{Engineered distributed execution for long-running browser jobs with \textbf{RabbitMQ retries and dead-letter queues}, \textbf{Redis} autosave, \textbf{PostgreSQL} persistence, circuit breakers, health checks, and \textbf{Prometheus} metrics to isolate third-party failures.}
+\resumeProjectItemListEnd
+\resumeProjectHeading
+{\textbf{Hyoka Agent Reliability Layer} $|$ \emph{Python, FastAPI, SQLAlchemy, PostgreSQL, OpenTelemetry}}{\bodyhref{https://github.com/unichronic/hyoka}{GitHub}}
+\resumeProjectItemListStart
+\resumeItem{Solved unreliable AI-agent behavior without visibility, evaluation, or rollback by building Hyoka, a \textbf{reliability control plane} ingesting \textbf{OTLP/OpenInference} traces and replaying agent workflows for evaluation.}
+\resumeItem{Designed \textbf{worker-owned replay and evaluation execution with database leases}, an evaluator registry, and failure mining that converts failures into evidence-hashed candidate changes, validated against prior behavior before gated promotion, with an \textbf{SQLAlchemy/Alembic}-backed metadata model across SQLite and PostgreSQL.}
+\resumeProjectItemListEnd
+\resumeSubHeadingListEnd
+
+\vspace{-4pt}
+\section{Technical Skills}
+\begin{itemize}[leftmargin=0.15in, label={}, topsep=0pt, itemsep=0pt, parsep=0pt, partopsep=0pt]
+  \item{\fontsize{9.0pt}{9.25pt}\selectfont
+   \textbf{Languages}{: Python, Go, JavaScript, TypeScript} \\
+   \textbf{Frameworks}{: FastAPI, Echo, SQLAlchemy, Node.js, PyTorch} \\
+   \textbf{Tools}{: PostgreSQL, Redis, RabbitMQ, Docker, GCP, GitHub Actions, OpenTelemetry, Prometheus} \\
+  }
+\end{itemize}
+
+\end{document}

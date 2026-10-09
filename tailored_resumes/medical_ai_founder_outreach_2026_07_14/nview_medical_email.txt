@@ -1,0 +1,22 @@
+To: cristian.atria@nviewmed.com
+Subject: Internship inquiry in three dimensional imaging and neuronavigation engineering
+
+Hi Cristian,
+
+I was looking at companies building intraoperative imaging and navigation and came across nView. After reading about the nView s1, the connection with my own project work felt worth reaching out about.
+
+A little bit about me that might be relevant:
+
+• During GSoC with InVesalius, I worked in a three dimensional medical imaging and neuronavigation application with DICOM and volumetric MRI data. I integrated FastSurfer inference for 95 brain regions through PyTorch and ONNX conversion and integration.
+
+• I worked on generated masks, label mapping, three dimensional surface inspection, and reduced processing time by 87 percent through asynchronous and parallel execution.
+
+• I have also built Hyoka, an AI reliability and evaluation platform for trace ingestion, evaluations, replayable runs, artifacts, and quality gates. Before that, I worked at Bentham AI, https://www.bentham.legal/, on backend automation involving external systems, retries, and recovery.
+
+I have not worked on C arm reconstruction or surgical device engineering, but I think my experience with imaging software, neuronavigation adjacent workflows, AI model integration, and backend reliability could be useful to nView. I would love to chat if there is an opportunity to contribute.
+
+I've attached my resume below.
+
+Regards,
+Shuvam
+https://github.com/unichronic/hyoka

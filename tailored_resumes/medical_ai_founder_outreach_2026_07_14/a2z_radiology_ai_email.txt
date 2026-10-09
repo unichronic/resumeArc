@@ -1,0 +1,22 @@
+To: pilot@a2zradiology.ai
+Subject: Internship inquiry in medical imaging ML engineering
+
+Hi Samir and Pranav,
+
+I came across a2z while reading your launch story about building an AI safety net for radiologists. The focus on making medical imaging AI reliable and useful in clinical workflows caught my attention, so I thought I would reach out.
+
+A little bit about me that might be relevant:
+
+• During GSoC with InVesalius, I worked with DICOM and volumetric MRI workflows in a three dimensional medical imaging and neuronavigation application. I integrated FastSurfer inference for 95 brain regions across PyTorch and ONNX, debugged orientation and label correctness, and built generated mask and three dimensional inspection flows.
+
+• I also reduced processing time by 87 percent through asynchronous and parallel execution, while checking GPU and CPU paths and preserving output correctness.
+
+• I have also built Hyoka, an AI reliability and evaluation platform for trace ingestion, evaluations, replayable runs, artifacts, and quality gates. Before that, I worked at Bentham AI, https://www.bentham.legal/, on backend automation for legal and compliance workflows.
+
+The modality and clinical task are different from a2z, but I believe my experience with inference integration, imaging data conformation, output validation, and performance work could transfer well to imaging ML engineering. I would love to chat if there is an opportunity to contribute.
+
+I've attached my resume below.
+
+Regards,
+Shuvam
+https://github.com/unichronic/hyoka

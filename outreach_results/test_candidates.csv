@@ -1,0 +1,2 @@
+first_name,last_name,company,domain,role,linkedin_url,first_guess,role_score,role_reasons,all_guesses,verification_status
+Jane,Doe,Example Startup,example.com,Engineering Manager,,jane.doe@example.com,28,engineering leadership,jane.doe@example.com;jane@example.com;janedoe@example.com;jdoe@example.com;janed@example.com;jane_doe@example.com;doe.jane@example.com;doe@example.com,

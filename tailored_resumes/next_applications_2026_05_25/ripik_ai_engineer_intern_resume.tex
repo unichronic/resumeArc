@@ -1,0 +1,146 @@
+% Generated selected-internship resume. Source: tools/generate_selected_internship_resumes.py
+\documentclass[letterpaper,11pt]{article}
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage[normalem]{ulem}
+\let\oldhref\href
+\newcommand{\bodyhref}[2]{\href{#1}{\underline{#2}\,\faExternalLink*}}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\input{glyphtounicode}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.19in}
+\addtolength{\topmargin}{-.76in}
+\addtolength{\textheight}{1.48in}
+\urlstyle{same}
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+\titleformat{\section}{\vspace{-5pt}\scshape\raggedright\large\bfseries}{}{0em}{}[\color{black}\titlerule \vspace{-6pt}]
+\pdfgentounicode=1
+\newcommand{\resumeItem}[1]{\item\small{{#1 \vspace{-3pt}}}}
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textbf{\small #2} \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & \textbf{\small #2}\\
+    \end{tabular*}\vspace{-7pt}
+}
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}[leftmargin=0.16in]}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-6pt}}
+\begin{document}
+
+\begin{center}
+    {\Huge \scshape Shuvam Pal} \\ \vspace{1pt}
+    \small \raisebox{-0.1\height}\faPhone\ +91 85830 54679 ~
+    \href{mailto:ishuvam.pal@gmail.com}{\raisebox{-0.2\height}\faEnvelope\ {ishuvam.pal@gmail.com}} ~
+    \href{https://linkedin.com/in/shuvampal3960}{\raisebox{-0.2\height}\faLinkedin\ {Shuvam Pal}}  ~
+    \href{https://github.com/unichronic}{\raisebox{-0.2\height}\faGithub\ {unichronic}}
+    \vspace{-8pt}
+\end{center}
+
+\section{Education}
+\resumeSubHeadingListStart
+  \resumeSubheading
+    {Dayananda Sagar College of Engineering}{Bengaluru, India}
+    {B.E. Artificial Intelligence and Machine Learning}{}
+\resumeSubHeadingListEnd
+
+\section{Experience}
+\resumeSubHeadingListStart
+
+\item
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+\textbf{\bodyhref{https://www.bentham.legal/}{Bentham AI}} & \textit{Dec 2025 -- Feb 2026} \\
+\textit{Backend Engineering Intern: Node.js, JavaScript, Go, Docker, GCP, GitHub Actions} & \textit{Remote} \\
+\end{tabular*}
+\vspace{-4pt}
+\resumeItemListStart
+\resumeItem{Built an AI-assisted workflow for structured company-registration drafts, combining prompt outputs, operator validation, public-site API lookups, retries, and automation handoff.}
+\resumeItem{Implemented async backend execution with browser automation, session recovery, state validation, and failure-aware retries, reducing manual filing time by \textbf{85\%}.}
+\resumeItem{Containerized services with Docker, deployed to Google Cloud Run, and automated releases through GitHub Actions, improving deployment velocity by \textbf{70\%}.}
+\resumeItemListEnd
+
+\item
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+\textbf{\bodyhref{https://gist.github.com/unichronic/4d7f61048fda1312d5d30bb151ee4eb5}{Google Summer of Code}} & \textit{May 2025 -- Sept 2025} \\
+\textit{Mentee at Invesalius: Python, VTK, wxPython, NumPy, PyTorch, ONNX} & \textit{Remote} \\
+\end{tabular*}
+\vspace{-4pt}
+\resumeItemListStart
+\resumeItem{Built Python medical-image segmentation tooling across \textbf{95 brain subparts}, covering preprocessing, orientation correction, model inference, generated masks, and large MRI data paths.}
+\resumeItem{Reduced segmentation runtime by \textbf{87\%} using asynchronous and parallel execution while preserving inspection workflows for generated masks and 3D surfaces.}
+\resumeItem{Debugged model-output pipeline issues across conformation, label mapping, PyTorch/ONNX-style inference, and binary mask generation inside a mature open-source codebase.}
+\resumeItemListEnd
+
+\item
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+\textbf{Open Source} & \bodyhref{https://gist.github.com/unichronic/ad59b914acf303066db8239e29ebb8a6}{\textit{Contributions}} \\
+\end{tabular*}
+\resumeItemListStart
+\resumeItem{Contributed to \textbf{Kuadrant MCP Gateway} reliability behavior, \textbf{Kyverno} policy/infrastructure paths, and IOOS/Tiled data or visualization tooling under maintainer review.}
+\resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+\section{Projects}
+\resumeSubHeadingListStart
+
+\resumeProjectHeading
+{\textbf{Hyoka} $|$ \emph{Python, FastAPI, SQLAlchemy, Alembic, PostgreSQL, OpenTelemetry, Next.js, Docker}}{}
+\resumeItemListStart
+\resumeItem{Built an \textbf{AI-agent reliability control plane} with SDK/proxy/OTLP trace ingestion, evaluator registries, replay modes, failure mining, validation runs, gate decisions, promotions, and audit logs.}
+\resumeItem{Implemented worker-owned execution leases, content-addressed artifacts, signed manifests, project-scoped API keys, SQLAlchemy/Alembic models, and a Next.js dashboard for operating agent behavior safely.}
+\resumeItemListEnd
+
+
+\resumeProjectHeading
+{\textbf{Swish Support System} $|$ \emph{JavaScript, React, Python, PostgreSQL/pgvector, Redis, Langfuse}}{\bodyhref{https://github.com/unichronic/swishagent}{GitHub}}
+\resumeItemListStart
+\resumeItem{Built a hybrid AI + rules support system where LLM assessments classify messy complaint semantics while deterministic policy code controls refunds, replacements, coupons, and escalations.}
+\resumeItem{Grounded responses in order, item, evidence, customer, and policy context with PostgreSQL/pgvector, Redis state, Langfuse traces, confidence thresholds, and regression checks.}
+\resumeItemListEnd
+
+
+\resumeProjectHeading
+{\textbf{Penny Lane Capital} $|$ \emph{Python, Agno, Pydantic, SQLite, Vector Memory, yfinance, JSONL}}{\bodyhref{https://github.com/unichronic/pennylane}{GitHub}}
+\resumeItemListStart
+\resumeItem{Built a multi-agent market-research workflow with analyst roles, bull/bear debate, trader, risk review, portfolio approval, typed Pydantic state, SQLite checkpoints, and replayable JSONL traces.}
+\resumeItem{Evaluated decisions with historical-market backtests, reward-loop style scorecards, validation harnesses, and baseline comparisons across return, drawdown, win-rate, and risk signals.}
+\resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+\section{Technical Skills}
+\begin{itemize}[leftmargin=0.15in, label={}]
+  \small{\item{
+   \textbf{Languages}{: Python, TypeScript, Go, SQL, C++} \\
+   \textbf{Frameworks}{: FastAPI, PyTorch, React, Next.js, Node.js, Agno, VTK, wxPython} \\
+   \textbf{Tools}{: PostgreSQL/pgvector, Redis, SQLite, Vector Memory, OpenTelemetry, Docker, GCP, GitHub Actions, Langfuse, ONNX} \\
+  }}
+\end{itemize}
+
+\end{document}

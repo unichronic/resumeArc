@@ -1,0 +1,6 @@
+.env
+.env.*
+!.env.example
+outreach_exports/
+outreach_results/
+

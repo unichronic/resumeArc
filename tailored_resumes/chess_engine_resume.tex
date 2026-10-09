@@ -1,0 +1,216 @@
+%-------------------------
+% Resume in Latex
+% Author : Jake Gutierrez
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage[normalem]{ulem}
+\let\oldhref\href
+\newcommand{\bodyhref}[2]{\href{#1}{\underline{#2}\,\faExternalLink*}}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.19in}
+\addtolength{\topmargin}{-.7in}
+\addtolength{\textheight}{1.4in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\classesList}[4]{
+    \item\small{
+        {#1 #2 #3 #4 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textbf{\small #2} \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & \textbf{\small #2}\\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+\begin{center}
+    {\Huge \scshape Shuvam Pal} \\ \vspace{1pt}
+    \small \raisebox{-0.1\height}\faPhone\ +91 85830 54679 ~ 
+    \href{mailto:ishuvam.pal@gmail.com}{\raisebox{-0.2\height}\faEnvelope\ {ishuvam.pal@gmail.com}} ~ 
+    \href{https://linkedin.com/in/shuvampal3960}{\raisebox{-0.2\height}\faLinkedin\ {Shuvam Pal}}  ~
+    \href{https://github.com/unichronic}{\raisebox{-0.2\height}\faGithub\ {unichronic}}
+    \vspace{-8pt}
+\end{center}
+
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Dayananda Sagar College of Engineering}{Bengaluru, India}
+      {B.E. Artificial Intelligence and Machine Learning}{}
+  \resumeSubHeadingListEnd
+
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+\resumeSubHeadingListStart
+
+\item
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+\textbf{\bodyhref{https://www.bentham.legal/}{Bentham}} & \textit{Dec 2025 -- Feb 2026} \\
+\textit{Backend Engineering Intern: Go, Node.js, Docker, GCP, Puppeteer} & \textit{Remote} \\
+\end{tabular*}
+\vspace{-4pt}
+\resumeItemListStart
+\resumeItem{Architected a resilient \textbf{Puppeteer-based Node.js automation engine} for MCA company registrations, reducing manual filing time by \textbf{85\%} via intelligent network-idle monitoring, \textbf{Vision API CAPTCHA} solving, and making good use of open API endpoints on the site.}
+\resumeItem{Built a \textbf{Go notification service} with a unified API for WhatsApp/email channels, provider-agnostic MSG91 integration, strict request validation, and Controller-Service-Provider separation.}
+\resumeItem{Designed scalable, production-ready infrastructure by \textbf{containerizing with Docker} and deploying to \textbf{Google Cloud Run}.}
+\resumeItemListEnd
+
+\item
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+\textbf{\bodyhref{https://gist.github.com/unichronic/4d7f61048fda1312d5d30bb151ee4eb5}{Google Summer of Code}} & \textit{May 2025 -- Sept 2025} \\
+\textit{Mentee at Invesalius: Python, VTK, wxPython, NumPy, PyTorch, ONNX} & \textit{Remote} \\
+\end{tabular*}
+\vspace{-4pt}
+\resumeItemListStart
+\resumeItem{Developed a tool to segment \textbf{95 subparts of the brain} from MRI images using \textbf{deep learning models} with support for both \textbf{PyTorch} and \textbf{TinyGrad}.}
+\resumeItem{Optimized processing time by \textbf{87\%} by utilizing \textbf{asynchronous functions} and \textbf{parallel processing}.}
+\resumeItem{Enhanced the \textbf{3D reconstructed surface visualization} system.}
+\resumeItemListEnd
+
+\vspace{2pt}
+
+\item
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+\textbf{Open Source} & \bodyhref{https://gist.github.com/unichronic/ad59b914acf303066db8239e29ebb8a6}{\textit{Contributions}} \\
+\end{tabular*}
+\resumeItemListStart
+\resumeItem{\textbf{Invesalius:} shipped GSoC brain-subpart segmentation for \textbf{95 MRI regions} and supporting medical-imaging fixes across segmentation progress UI, wxPython compatibility, preferences loading, and Zip Slip path validation.}
+\resumeItem{\textbf{\bodyhref{https://github.com/Kuadrant/mcp-gateway/pull/983}{Kuadrant:}} implemented MCP Gateway backend-outage grace handling, retaining advertised tools through transient upstream failures with \texttt{--remove-tools-grace-period}, status updates, and recovery/removal test coverage.}
+\resumeItem{\textbf{\bodyhref{https://github.com/open-policy-agent/opa/pull/8663}{OPA:}} updated \texttt{opa fmt} to preserve multiline single-entry arrays/objects instead of collapsing deeply nested Rego structures, with v0/v1 formatter golden-test updates.}
+\resumeItem{Contributed to IOOS, VideoLAN, CRIU, and Tiled.}
+\resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+
+%-----------PROJECTS-----------
+\section{Projects}
+    \resumeSubHeadingListStart
+\resumeProjectHeading
+{\textbf{Murdoc}}{\bodyhref{https://github.com/unichronic/murdoc}{GitHub}}
+\resumeItemListStart
+\resumeItem{Built a self-hosted \textbf{AI security gateway} for LLM, HTTP tool, and MCP traffic, blocking \textbf{90\%+} of prompt-injection and unsafe-tool attempts across a \textbf{150-case attack corpus} with false positives under \textbf{5\%}.}
+\resumeItem{Added route profiles, RBAC runtime settings, PII redaction, allow/block rules, \textbf{OpenTelemetry} metrics/traces, health checks, and audit ledgers for \textbf{100\%} of policy decisions.}
+\resumeItemListEnd
+\resumeProjectHeading
+{\textbf{Seaweed Contest Platform}}{\bodyhref{https://github.com/unichronic/seaweed-fe}{GitHub}}
+\resumeItemListStart
+\resumeItem{Built backend services for registration, code submissions, sandboxed Judge0 execution, scoring, and live contest rankings for competitive programming workflows.}
+\resumeItem{Designed async Go dispatch, verdict polling, PostgreSQL result schemas, Redis-backed runtime state, and Docker deployment paths, reaching \textbf{sub-5s P95 verdict latency}.}
+\resumeItemListEnd
+    \resumeSubHeadingListEnd
+
+
+%
+%-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages}{: Python, Go, TypeScript} \\
+    \textbf{Frameworks}{: FastAPI, Echo, Node.js, Express, AWS} \\
+    \textbf{Tools}{: PostgreSQL, Redis, RabbitMQ, Docker, Prometheus, Go-Rod, Puppeteer} \\
+    }}
+ \end{itemize}
+
+
+\end{document}

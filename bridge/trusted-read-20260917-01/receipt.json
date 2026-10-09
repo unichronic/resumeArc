@@ -1,0 +1,31 @@
+{
+  "bridgeVersion": "3.6",
+  "kind": "google-docs-trusted-read-receipt",
+  "status": "complete",
+  "target": {
+    "documentId": "1QuSnHoSy_4fcf-aNODWoUYdPQMRZ9jaNSmBoeJZsvrs",
+    "title": "Shuvam's Resume",
+    "revisionId": "ANLCKQkipE_r1oDYak-ZIxpetaZBpCqSGV9cOlVBLr9CPWbtBLv1JOHt8AOFym8WSsdJtQhsjom_adhl_Gg6deL1iTi4HqtWp4-17eI_dA",
+    "documentUrl": "https://docs.google.com/document/d/1QuSnHoSy_4fcf-aNODWoUYdPQMRZ9jaNSmBoeJZsvrs",
+    "selectedTabId": null
+  },
+  "dropdownMetadata": {
+    "status": "unavailable",
+    "resolvedTool": null,
+    "authoritative": false,
+    "count": 0
+  },
+  "controlAwareness": {
+    "hasProtectedControls": false,
+    "authoritativeDropdownCount": 0,
+    "opaqueControlCount": 0,
+    "affectedParagraphCount": 0,
+    "nativeElementCounts": {
+      "horizontalRule": 4
+    },
+    "preservationRequired": false,
+    "recommendedBehavior": "No protected controls were detected in the scanned scope."
+  },
+  "warnings": [],
+  "error": null
+}

@@ -1,0 +1,166 @@
+% Tailored resume for Metronis backend + infra internship.
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage[normalem]{ulem}
+\let\oldhref\href
+\newcommand{\bodyhref}[2]{\href{#1}{\underline{#2}\,\faExternalLink*}}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\input{glyphtounicode}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+\setlength{\footskip}{4.1pt}
+
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.19in}
+\addtolength{\topmargin}{-.80in}
+\addtolength{\textheight}{1.62in}
+
+\urlstyle{same}
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+\titleformat{\section}{
+  \vspace{-5pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-6pt}]
+
+\pdfgentounicode=1
+
+\newcommand{\resumeItem}[1]{\item\small{{#1 \vspace{-2pt}}}}
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textbf{\small #2} \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & \textbf{\small #2}\\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}, topsep=1pt, partopsep=0pt]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}[leftmargin=0.16in, itemsep=0pt, parsep=0pt, topsep=1pt, partopsep=0pt]}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-7pt}}
+
+\begin{document}
+
+\begin{center}
+    {\Huge \scshape Shuvam Pal} \\ \vspace{1pt}
+    \small \raisebox{-0.1\height}\faPhone\ +91 85830 54679 ~
+    \href{mailto:ishuvam.pal@gmail.com}{\raisebox{-0.2\height}\faEnvelope\ {ishuvam.pal@gmail.com}} ~
+    \href{https://linkedin.com/in/shuvampal3960}{\raisebox{-0.2\height}\faLinkedin\ {Shuvam Pal}}  ~
+    \href{https://github.com/unichronic}{\raisebox{-0.2\height}\faGithub\ {unichronic}}
+    \vspace{-8pt}
+\end{center}
+
+\section{Education}
+\resumeSubHeadingListStart
+  \resumeSubheading
+    {Dayananda Sagar College of Engineering}{Bengaluru, India}
+    {B.E. Artificial Intelligence and Machine Learning}{}
+\resumeSubHeadingListEnd
+
+\section{Experience}
+\resumeSubHeadingListStart
+
+\item
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+\textbf{\bodyhref{https://www.bentham.legal/}{Bentham AI}} & \textit{Dec 2025 -- Feb 2026} \\
+\textit{Backend Engineering Intern: Go, Node.js, Docker, GCP, Puppeteer, GitHub Actions} & \textit{Remote} \\
+\end{tabular*}
+\vspace{-4pt}
+\resumeItemListStart
+\resumeItem{Built a resilient \textbf{Puppeteer/Node.js backend automation workflow} for MCA filings with retries, session recovery, public API lookups, state validation, and human-reviewable generated drafts, reducing manual filing time by \textbf{85\%}.}
+\resumeItem{Integrated \textbf{browser automation} with structured backend state, CAPTCHA handoff, network-idle monitoring, and recoverable checkpoints for unreliable government-site workflows.}
+\resumeItem{Containerized services with \textbf{Docker}, deployed to \textbf{Google Cloud Run}, and automated releases through \textbf{GitHub Actions}, improving deployment velocity by \textbf{70\%}.}
+\resumeItemListEnd
+
+\item
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+\textbf{\bodyhref{https://gist.github.com/unichronic/4d7f61048fda1312d5d30bb151ee4eb5}{Google Summer of Code}} & \textit{May 2025 -- Sept 2025} \\
+\textit{Mentee at Invesalius: Python, VTK, wxPython, NumPy, PyTorch, ONNX} & \textit{Remote} \\
+\end{tabular*}
+\vspace{-4pt}
+\resumeItemListStart
+\resumeItem{Built Python medical-image processing/inference tooling for \textbf{95 brain subparts}, handling preprocessing, orientation correction, model execution, generated masks, and large-volume MRI data paths.}
+\resumeItem{Reduced runtime by \textbf{87\%} with \textbf{async/parallel execution} and debugged pipeline issues across conformation, orientation, label mapping, and PyTorch/ONNX-style inference.}
+\resumeItem{Worked inside a mature open-source codebase, adapting UI/data-path changes to existing \textbf{VTK, wxPython, NumPy}, and model-inference boundaries.}
+\resumeItemListEnd
+
+\item
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+\textbf{Open Source} & \bodyhref{https://gist.github.com/unichronic/ad59b914acf303066db8239e29ebb8a6}{\textit{Contributions}} \\
+\end{tabular*}
+\vspace{-7pt}
+\resumeItemListStart
+\resumeItem{Contributed patches across \textbf{Invesalius, IOOS, VideoLAN, CRIU, Tiled, Kyverno, and Kuadrant}, working through maintainer review on reliability, security, and integration-quality fixes.}
+\resumeItem{Worked across unfamiliar \textbf{systems/cloud-native codebases}, reading existing architecture and shipping focused fixes without breaking project conventions or maintainer expectations.}
+\resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+\section{Projects}
+\resumeSubHeadingListStart
+
+\resumeProjectHeading
+{\textbf{Swish Support System} $|$ \emph{Python, FastAPI, PostgreSQL, Redis, Langfuse, Docker}}{\bodyhref{https://github.com/unichronic/swishagent}{GitHub}}
+\resumeItemListStart
+\resumeItem{Built \textbf{Python/FastAPI backend services} for support automation with \textbf{PostgreSQL/Redis} state, session recovery, case lifecycles, action records, and deterministic refund/replacement/escalation policy.}
+\resumeItem{Implemented backend reliability tooling around the agent using \textbf{Langfuse/local JSON traces}, multi-turn replay, deterministic validators, optional judge scoring, JSONL outputs, and regression cases for failed behaviors.}
+\resumeItem{Added safeguards around \textbf{rate limits, timeouts, session clearing, case-status verification}, policy-safe response checks, and fail-on-error suite execution for CI-style regression testing.}
+\resumeItemListEnd
+
+\resumeProjectHeading
+{\textbf{Murdoc} $|$ \emph{Python, FastAPI, MCP, OpenTelemetry, Prometheus, Docker}}{\bodyhref{https://github.com/unichronic/murdoc}{GitHub}}
+\resumeItemListStart
+\resumeItem{Instrumented a gateway service with \textbf{OpenTelemetry traces}, \textbf{Prometheus metrics}, route profiles, health checks, and audit records tying model/tool requests to policy outcomes.}
+\resumeItem{Built \textbf{replayable decision records} across prompt, tool, retrieval, and output layers, keeping model/tool policy decisions inspectable without forcing downstream services to change execution paths.}
+\resumeItemListEnd
+
+\resumeProjectHeading
+{\textbf{Postificus} $|$ \emph{Go, Echo, Rod, PostgreSQL, Redis, RabbitMQ, Docker, Prometheus}}{\bodyhref{https://github.com/unichronic/postificus}{GitHub}}
+\resumeItemListStart
+\resumeItem{Built Go/Echo backend services for a content distribution platform with REST APIs, \textbf{RabbitMQ workers}, PostgreSQL persistence, Redis autosave, and recoverable job state.}
+\resumeItem{Added \textbf{retries, DLQs, circuit breakers, health checks}, and Prometheus metrics so unreliable external API/browser workflows stayed observable and recoverable.}
+\resumeItemListEnd
+
+\resumeProjectHeading
+{\textbf{Seaweed Contest Platform} $|$ \emph{Go, PostgreSQL, Redis, Judge0, AWS, Docker, Kubernetes}}{\bodyhref{https://github.com/unichronic/seaweed-fe}{GitHub}}
+\resumeItemListStart
+\resumeItem{Built backend services for registration, code submissions, \textbf{sandboxed Judge0 execution}, scoring, and live rankings across \textbf{500+ concurrent users}; reached \textbf{sub-5s P95 verdict latency}.}
+\resumeItem{Designed \textbf{async verdict polling}, submission state transitions, PostgreSQL result schemas, Redis-backed runtime state, and \textbf{Docker/Kubernetes} deployment on AWS for contest reliability.}
+\resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+\section{Technical Skills}
+\begin{itemize}[leftmargin=0.15in, label={}]
+  \small{\item{
+   \textbf{Languages}{: Go, Python, TypeScript, C++} \\
+   \textbf{Frameworks}{: FastAPI, Echo, Node.js, Express, PyTorch} \\
+   \textbf{Tools}{: PostgreSQL, Redis, RabbitMQ, Docker, Kubernetes, AWS, GCP, GitHub Actions, OpenTelemetry, Prometheus, Langfuse, Judge0} \\
+  }}
+\end{itemize}
+
+\end{document}
